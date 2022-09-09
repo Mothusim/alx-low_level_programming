@@ -1,4 +1,10 @@
-#iclude <stdio.h>
+#include <stdio.h>
+
+/**
+*main - printing
+*Return: 0
+*/
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
