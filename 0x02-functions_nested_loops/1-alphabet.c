@@ -7,11 +7,11 @@
 *Return: 0
 */
 
-int void print_alphabet(void)
+void print_alphabet(void)
 {
 	char cha = 'G';
 
 	printf("%c", tolower(cha));
-	print('\n');
+	printf('\n');
 	return (0);
 }
