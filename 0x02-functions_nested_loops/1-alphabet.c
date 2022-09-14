@@ -1,17 +1,15 @@
 #include "main.h"
 #include <stdio.h>
-#include <ctype.h>
 
 /**
 *main - Enrt point
 *Return: 0
 */
-
 void print_alphabet(void)
 {
-	char cha = 'G';
+	char c;
 
-	printf("%c", tolower(cha));
-	printf('\n');
-	return (0);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
+	_putchar('\n');
 }
